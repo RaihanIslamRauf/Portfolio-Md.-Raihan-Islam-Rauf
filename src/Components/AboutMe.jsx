@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import profileImage from "../assets/rauf_islam.png";
 import headerBg from "../assets/header_bg.png";
 
@@ -17,16 +18,26 @@ const AboutMe = () => {
           <h4 className="text-base md:text-lg text-gray-400">Hi, I am</h4>
           <h1 className="text-2xl md:text-4xl font-bold text-red-500">Md. Raihan Islam Rauf</h1>
           <h2 className="text-lg md:text-2xl font-semibold">Junior Frontend Developer</h2>
-          <p className="text-gray-300 text-sm md:text-base">
-            Moghbazar, Dhaka, Bangladesh •{" "}
-            <a
-              href="mailto:md.raufislam27@gmail.com"
-              className="underline text-red-400"
-            >
-              md.raufislam27@gmail.com
-            </a>{" "}
-            • +880183159667
-          </p>
+          
+          <div className="text-gray-300 text-sm md:text-base space-y-1 flex flex-col">
+            <span className="flex items-center gap-1">
+              <FaMapMarkerAlt className="text-red-400" />
+              Moghbazar, Dhaka, Bangladesh
+            </span>
+            <span className="flex items-center gap-1">
+              <FaEnvelope className="text-red-400" />
+              <a
+                href="mailto:md.raufislam27@gmail.com"
+                className="hover:text-red-300"
+              >
+                md.raufislam27@gmail.com
+              </a>
+            </span>
+            <span className="flex items-center gap-1">
+              <FaPhone className="text-red-400" />
+              +880183159667
+            </span>
+          </div>
 
           {/* Social Links */}
           <div className="flex flex-wrap gap-4 text-sm md:text-base">
@@ -34,17 +45,17 @@ const AboutMe = () => {
               href="https://github.com/RaihanIslamRauf"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-red-400"
+              className="hover:text-red-400 flex items-center gap-1"
             >
-              GitHub
+              <FaGithub /> GitHub
             </a>
             <a
               href="https://www.linkedin.com/in/raihan-islam-rauf-6a6660227/"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-red-400"
+              className="hover:text-red-400 flex items-center gap-1"
             >
-              LinkedIn
+              <FaLinkedin /> LinkedIn
             </a>
           </div>
 
@@ -58,12 +69,12 @@ const AboutMe = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1KrBoshgFnsUmiNkrekiDpIryy359RrMC/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1li9utSaXiObC-3-y3CowK8eIt3KFhaed/view?usp=drive_link"
             download
             target="_blank"
             className="inline-flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white px-5 py-2 rounded-md font-semibold transition duration-300 text-sm md:text-base"
           >
-            <i className="fas fa-download"></i> Download Resume
+            <FaDownload /> Download Resume
           </a>
         </div>
 
