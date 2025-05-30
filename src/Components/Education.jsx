@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const educationData = [
   {
-    title: "Bachelor in Computer Science & Engineering",
+    title: "Bachelor of Science in Computer Science & Engineering",
     institution: "Stamford University Bangladesh",
     duration: "2020 - 2024",
     result: "CGPA 3.76",
