@@ -80,7 +80,7 @@ const Navbar = () => {
           <div className="navbar-end flex items-center gap-1 sm:gap-4">
             <ul className="hidden lg:flex gap-4 text-white">
               <NavLink className={navLinkStyle} to="/">
-                About Me
+                About
               </NavLink>
               <NavLink className={navLinkStyle} to="/skills">
                 Skills
@@ -92,7 +92,7 @@ const Navbar = () => {
                 Education
               </NavLink>
               <NavLink className={navLinkStyle} to="/contact">
-                Contact With Me
+                Contact
               </NavLink>
             </ul>
           </div>
