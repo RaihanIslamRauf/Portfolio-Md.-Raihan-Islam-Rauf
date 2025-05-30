@@ -45,7 +45,7 @@ const techVariants = {
 const Projects = () => {
   const projectList = [
     {
-      title: "Crowdcube",
+      title: "CrowdCube",
       overview: "An online donation platform for crowdfunding different causes.",
       description: [
         "Users can donate securely to different causes",
@@ -67,7 +67,7 @@ const Projects = () => {
       ],
     },
     {
-      title: "RunTrack",
+      title: "Runtrack",
       overview:
         "A modern web platform built to simplify marathon event management.",
       description: [
