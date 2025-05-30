@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div className="w-full py-12 px-4 md:px-8">
       <div
-        className="mx-auto flex flex-col-reverse lg:flex-row items-center gap-12 md:gap-20 text-white"
+        className="mx-auto lg:flex flex-col-reverse lg:flex-row items-center gap-12 md:gap-20 text-white"
         style={{
           backgroundImage: `url(${headerBg})`,
           backgroundRepeat: "no-repeat",
@@ -72,7 +72,7 @@ const AboutMe = () => {
             href="https://drive.google.com/file/d/1li9utSaXiObC-3-y3CowK8eIt3KFhaed/view?usp=drive_link"
             download
             target="_blank"
-            className="inline-flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white px-5 py-2 rounded-md font-semibold transition duration-300 text-sm md:text-base"
+            className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-md font-semibold transition duration-300 text-sm md:text-base"
           >
             <FaDownload /> Download Resume
           </a>

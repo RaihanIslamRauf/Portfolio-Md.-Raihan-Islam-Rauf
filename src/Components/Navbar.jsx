@@ -60,6 +60,9 @@ const Navbar = () => {
                   <NavLink className={navLinkStyle} to="/projects" onClick={handleLinkClick}>
                     Projects
                   </NavLink>
+                  <NavLink className={navLinkStyle} to="/education" onClick={handleLinkClick}>
+                    Education
+                  </NavLink>
                   <NavLink className={navLinkStyle} to="/contact" onClick={handleLinkClick}>
                     Contact With Me
                   </NavLink>
@@ -84,6 +87,9 @@ const Navbar = () => {
               </NavLink>
               <NavLink className={navLinkStyle} to="/projects">
                 Projects
+              </NavLink>
+              <NavLink className={navLinkStyle} to="/education">
+                Education
               </NavLink>
               <NavLink className={navLinkStyle} to="/contact">
                 Contact With Me
